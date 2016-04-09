@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cd /mouffette 
+/usr/bin/perl mouffette.pl conf.yml 

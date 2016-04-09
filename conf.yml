@@ -1,0 +1,17 @@
+# these parameters are passed to the Connection ob
+connection:
+  jid: 'botname@your_jabber_domain'
+  host: 'hostname or IP of jabber server'
+  password: 'password'
+  resource: 'AnyEvent::XMPP::Devel'
+  connect_timeout: 300
+bot:
+  loopinterval: 600
+  db: mybot.db
+  statushost: "127.0.0.1"
+  statusport: 9876
+  maxclients: 100
+  UserAgent: "Mouffette"
+
+
+
